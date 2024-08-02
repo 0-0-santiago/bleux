@@ -1,0 +1,454 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px 60px;
+    background-color: #1e172f;
+}
+
+img {
+    width: 200px;
+    margin-left:30px;
+}
+
+.item {
+    display: flex;
+    margin-left: 280px;
+    margin-right: 30px;
+}
+
+nav ul {
+    list-style: none;   
+}
+
+nav ul li a {
+    color: rgb(164, 164, 164);
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 45px;
+}
+
+.btn {
+    padding: 15px 30px;
+    color: white;
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(90deg, #8135bc 5%, #2370dc 70%, #2370dc 30%);
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.maincontainer {
+    display: flex;
+    background-image: url(../assets/images/hojasFondo.jpg);
+    background-size: contain;
+    background-position: 120%;
+
+}
+
+.container {
+    background-color: #2e2550;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 50px 170px 290px;
+}
+
+.text {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text h1 {
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+.text p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.btns {
+    margin-top: 30px;
+    margin-right: 280px;
+    border: solid grey 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn1, .btn2 {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+}
+
+.btn1 {
+    color: #f22e92;
+}
+
+.item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+.item2 img {
+    width: 320px;
+}
+
+.btn2 {
+    background-color: #2e2550;
+    color:white;
+    border: solid white 2px;
+}
+
+/* aqui esta la zona de Fonctionnalités */
+
+
+
+.logos {
+    display: flex;
+    height: 35px;
+}
+
+h2 {
+    text-align: center;    
+    color: #f22e92;
+    font-size: 5rem;
+}
+
+.contenedor_p {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor_p .img_com {
+    width: 650px;
+}
+
+.logos img {
+    width: 30px;
+    height: 30px;
+}
+
+h3 {
+    font-size: 50px;
+    color: #b4236e;
+}
+
+.caja_de_la_caja p {
+    font-size: 25px;
+    translate: 0px -25px;
+}
+
+h4 {
+    font-size: 30px;
+    color: #d82682;
+    height: 20px;
+}
+
+.caja_de_la_caja {
+    translate: 0px -40px;
+}
+
+
+/* esta es la seccion de plans y pricing */
+
+.caja_3 {
+    background-color: #2e2550;
+}
+
+.caja_3 h2 {
+    color: white;
+}
+
+.caja_3  {
+    color: rgba(255, 255, 255, 0.585);
+    text-align: center;
+    font-size:  25px;
+}
+
+.fondo {
+    background-color: white;
+    color: black;
+    width: 400px;
+    border-radius: 5px;
+    margin: 80px 40px 80px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.las_opciones {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.fondo img {
+    width: 120px;
+}
+
+.nomengraturas {
+    background-color:  rgb(242, 236, 236);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Lite_2 {
+    font-weight: bold;
+}
+
+.chulos img {
+    width: 20px;
+    height: 20px;
+}
+
+.chulos {
+    display: flex;
+}
+
+.precio {
+    font-size: 50px;
+    margin: 15px;
+}
+
+.chulos p {
+    margin: 5px;
+    translate: 50px;
+}
+
+
+.fondo button {
+    height: 60px;
+    width: 220px;
+}
+
+
+
+.boton_bajo {
+    background-color: rgb(242, 236, 236);
+    height: 80px;
+    translate: 0px 10px;
+    border-radius: 5px;
+}
+
+.boton_bajo button {
+    border: none;
+    color: white;
+    font-size: 20px;
+    translate: 0px 8px;
+    border-radius: 10px;
+    background-color: #2e2550;
+}
+
+.Lite {
+    color: #d82682;
+    font-weight: bold;
+}
+
+.boton_bajo .color_boton {
+    
+    background-color:#f22e92;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    translate: 0px 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 100px 20px 100px;
+}
+
+
+.img_footer img {
+    height: 30px;
+    width: 35px;
+    translate: 0px 20px;
+}
+
+footer p {
+    font-size: 25px;
+}
+
+footer span {
+    color: #f22e92;
+}
+
+.centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 8px 20px;
+    }
+
+    img {
+        width: 150px;
+        margin-left: 0;
+    }
+
+    .item {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .maincontainer {
+        flex-direction: column;
+        background-position: center;
+        padding: 20px 0;
+    }
+
+    .container {
+        padding: 80px 20px;
+    }
+
+    .text h1 {
+        font-size: 50px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+
+    .btns {
+        margin-right: 0;
+        border: none;
+        padding: 5px 0;
+    }
+
+    .item2 {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .item2 img {
+        width: 90px;
+    }
+
+    .caja_de_la_caja p {
+        font-size: 20px;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .caja_3 p {
+        font-size: 20px;
+    }
+
+    .logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logos .mover {
+        translate: -35px -25px   ;
+    }
+
+    .logos img {
+        translate: -175px 30px ;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+    .las_opciones {
+        margin: 0px 20px 0px 20px;
+    }
+
+    .contenedor_p {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor_p .img_com {
+        width: 300px;
+    }
+
+    .fondo {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .las_opciones {
+        flex-direction: column;
+    }
+
+    .boton_bajo {
+        margin: 20px 0;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 10px;
+    }
+
+    .img_footer img {
+        margin-bottom: 10px;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    .centrar {
+        flex-direction: column;
+        text-align: center;
+    }
+}
